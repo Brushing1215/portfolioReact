@@ -1,0 +1,31 @@
+.navBar .navRow{
+    min-height: 75px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    align-items:center;
+}
+.linkStyle{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    align-items:center;
+}
+@media only screen and (max-width: 770px) {
+
+    .name{
+        text-decoration: none;
+        height: 75px;
+    }
+}
+
+/* @media only screen and (max-width: 575px) {
+.linkStyle{
+    display: inline-block;
+    height:50px;
+}
+} */
