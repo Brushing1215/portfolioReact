@@ -3,6 +3,9 @@ import Groovy from '../../images/groovy.PNG'
 import Projects from '../projects'
 import quiz from '../../images/quiz.PNG'
 import planner from '../../images/planner.PNG'
+import port from '../../images/port.JPG'
+import burger from '../../images/burger.PNG'
+import fit from '../../images/fit.PNG'
 const projects=[
     {
         name: 'Groovy Music App',
@@ -23,16 +26,16 @@ const projects=[
         image:planner
     },
     {
-        name: 'Groovy Music App',
-        deployed:'https://andrewpaulgreer.github.io/Project1/',
-        github: 'https://github.com/andrewpaulgreer/Project1',
-        image:Groovy
+        name: 'Node Handlebars App',
+        deployed:'https://dry-mountain-01547.herokuapp.com/?id=5ef5136dea57c80018fa1ed0',
+        github: 'https://github.com/Brushing1215/handlebarsHW',
+        image:burger
     },
     {
-        name: 'Groovy Music App',
+        name: 'Fitness Tracker App',
         deployed:'https://andrewpaulgreer.github.io/Project1/',
-        github: 'https://github.com/andrewpaulgreer/Project1',
-        image:Groovy
+        github: 'https://github.com/Brushing1215/fitnessTrackerHW',
+        image:fit
     },
     {
         name: 'Groovy Music App',

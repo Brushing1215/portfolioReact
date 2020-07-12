@@ -1,5 +1,5 @@
 import React from 'react'
-import quiz from '../../images/quiz.PNG'
+import port from '../../images/port.JPG'
 const Home =()=>{
 return (
     <main class="container pt-2 pb-5 mb-3 px-4">
