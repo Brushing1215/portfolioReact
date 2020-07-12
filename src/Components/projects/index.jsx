@@ -8,8 +8,8 @@ const Projects = (props) => {
         <div class="card-body">
         <h5 class="card-title">{props.project.name}</h5>
         <div className="row">
-            <div className="col-6"><a href={props.project.github} className='text-body'><i class="fa fa-github" aria-hidden="true" ></i> Repo</a></div>
-            <div className="col-6"><a href={props.project.deployed} className='text-body'>Website</a></div>
+            <div className="col-6"><a href={props.project.github} className='text-body'  target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i> Repo</a></div>
+            <div className="col-6"><a href={props.project.deployed} className='text-body' target="_blank" rel="noopener noreferrer">Website</a></div>
         </div>
         </div>
       </div>
