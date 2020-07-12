@@ -2,6 +2,7 @@ import React from 'react';
 import Groovy from '../../images/groovy.PNG'
 import Projects from '../projects'
 import quiz from '../../images/quiz.PNG'
+import planner from '../../images/planner.PNG'
 const projects=[
     {
         name: 'Groovy Music App',
@@ -16,10 +17,10 @@ const projects=[
         image:quiz
     },
     {
-        name: 'Groovy Music App',
-        deployed:'https://andrewpaulgreer.github.io/Project1/',
-        github: 'https://github.com/andrewpaulgreer/Project1',
-        image:Groovy
+        name: 'Day Planner App',
+        deployed:'https://brushing1215.github.io/dayplanner/',
+        github: 'https://github.com/Brushing1215/dayplanner',
+        image:planner
     },
     {
         name: 'Groovy Music App',
