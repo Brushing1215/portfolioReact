@@ -1,6 +1,6 @@
 import React from 'react'
-/* import port from '../../images/port.PNG' */
-const Home =()=>{
+import quiz from '../../images/quiz.PNG'
+const Home =()=>{ 
 return (
     <main class="container pt-2 pb-5 mb-3 px-4">
     <section class="row mx-0">
