@@ -3,9 +3,10 @@ import Groovy from '../../images/groovy.PNG'
 import Projects from '../projects'
 import quiz from '../../images/quiz.PNG'
 import planner from '../../images/planner.PNG'
-import port from '../../images/port.JPG'
+/* import port from '../../images/port.JPG' */
 import burger from '../../images/burger.PNG'
 import fit from '../../images/fit.PNG'
+import code from '../../images/code.PNG'
 const projects=[
     {
         name: 'Groovy Music App',
@@ -38,10 +39,10 @@ const projects=[
         image:fit
     },
     {
-        name: 'Groovy Music App',
-        deployed:'https://andrewpaulgreer.github.io/Project1/',
-        github: 'https://github.com/andrewpaulgreer/Project1',
-        image:Groovy
+        name: 'Code Quiz',
+        deployed: 'https://brushing1215.github.io/Codequiz/',
+        github: 'https://github.com/Brushing1215/Codequiz',
+        image:code
     },
 ]
     
