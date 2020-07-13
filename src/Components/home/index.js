@@ -1,5 +1,5 @@
 import React from 'react'
-import quiz from '../../images/quiz.PNG'
+import port from '../../images/port.PNG'
 const Home =()=>{ 
 return (
     <main class="container pt-2 pb-5 mb-3 px-4">
@@ -9,7 +9,7 @@ return (
           About Me
         </h1>
         <hr />
-        <img  class="float-md-left mr-2 img-fluid" src={quiz} alt="placholder nature" style={{width: 350}}/>
+        <img  class="float-md-left mr-2 img-fluid" src={port} alt="placholder nature" style={{width: 350}}/>
         <p>
           My name is Brett Rushing and I am a Junior Developer from Charlotte, NC Area. I am very excited to start this new chapter in my life and to start my career in web development and design. My background is in Sales, which was my profession for over 10 years. 
         </p>
