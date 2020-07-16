@@ -3,7 +3,6 @@ import Groovy from '../../images/groovy.PNG'
 import Projects from '../projects'
 import quiz from '../../images/quiz.PNG'
 import planner from '../../images/planner.PNG'
-/* import port from '../../images/port.JPG' */
 import burger from '../../images/burger.PNG'
 import fit from '../../images/fit.PNG'
 import code from '../../images/code.PNG'
