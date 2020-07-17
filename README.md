@@ -8,7 +8,7 @@ This is my Portfolio that was built using react. This portfolio shows my skil se
 ```
 AS A user,
 I WANT to have a portfolio that is functional and professional,
-SO THAT I show projects to employera.
+SO THAT I show projects to employers.
 ```
 ## Table of Contents
 
