@@ -43,22 +43,60 @@ const Contact = () => {
         <div className="col-md-6">
           <div class="card" style={{ width: "95%" }}>
             <div class="card-body">
-
+              <p>Have a question? I would Love to speak with you!</p>
+              <p>
+                How can I be useful to your service? Please feel free to reach
+                out to me. I would be delighted to answer all your questions or
+                concerns.
+              </p>
             </div>
           </div>
         </div>
         <div className="col-md-6 text-center">
-        <div class="card" style={{ width: "95%" }}>
+          <div class="card" style={{ width: "95%" }}>
             <div class="card-body">
-          <div>Don't hesitate to call, email or connect on LinkedIn.</div>
-          <div>Also take a look at my  <a href="https://docs.google.com/document/d/19d8xAYOswu0Tjms4sEx17b6N4wM6pmjJv3kkCjeoWw0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a></div>
-            <div><a href="tel:704-231-7871">704-231-7871</a></div>
-            <div><a href="mailto:brettrushing1215@gmail.com" target="_blank" rel="noopener noreferrer">brettrushing1215@gmail.com</a></div>
-            <div>
-              <a href="https://github.com/Brushing1215" target="_blank" rel="noopener noreferrer" className='mr-2'><i className="fa fa-github" aria-hidden="true"/></a>
-              <a href="https://www.linkedin.com/in/brett-rushing-3543171a6/" className='ml-2' target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" aria-hidden="true"/></a>
+              <div>Don't hesitate to call, email or connect on LinkedIn.</div>
+              <div>
+                <p>Also take a look at my{" "} </p>
+                <a
+                  href="https://docs.google.com/document/d/19d8xAYOswu0Tjms4sEx17b6N4wM6pmjJv3kkCjeoWw0/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </div>
+              <div>
+                Phone: <a href="tel:704-231-7871">704-231-7871</a>
+              </div>
+              <div>
+               Email: <a
+                  href="mailto:brettrushing1215@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  brettrushing1215@gmail.com
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/Brushing1215"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-2"
+                >
+                  <i className="fa fa-github" aria-hidden="true" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/brett-rushing-3543171a6/"
+                  className="ml-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-linkedin" aria-hidden="true" />
+                </a>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>

@@ -25,6 +25,12 @@ const Home = () => {
             is key and in this career im going to push myself to learn as much
             as possible in many languages.
           </p>
+          <p>
+            I am fluent in the MERN Stack and very active in group standups. I
+            am very strong in both Front End and Back End development and will
+            bring people skills as well as negotiation and planning skills to
+            any team I join.
+          </p>
         </div>
       </section>
     </main>
