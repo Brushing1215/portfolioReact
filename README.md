@@ -1,68 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# React Portfolio
+![FullStack](https://user-images.githubusercontent.com/61035701/84943225-1028d480-b0b2-11ea-8742-e49bc271dcfc.png)
+<br>
+This is my Portfolio that was built using react. This portfolio shows my skil set as well as some of my projects that I have been working on.
 
-In the project directory, you can run:
+## User Story
+```
+AS A user,
+I WANT to have a portfolio that is functional and professional,
+SO THAT I show projects to employera.
+```
+## Table of Contents
 
-### `yarn start`
+  * [Pportfolio](#react-portfolio)
+ 
+  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
+To install necessary dependencies, do the following list below:
+1. Fork this repo on GitHub:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+2. Rename your fork:
 
-### `yarn test`
+3. Clone your fork to your computer:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Copy `.env.sample` to `.env` and modify it:
+   ```bash
+   $ cp .env.sample .env
+   $ code .env
+   ```
 
-### `yarn build`
+5. Launch the client and server in development mode:
+   ```bash
+   $ yarn start:dev
+   ```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Yarn Packages needed
+```bash
+$ yarn add react-ticker
+```
+```bash
+$ yarn add react-datepicker
+```
+```bash
+$ yarn add react-chartjs-2
+```
+```bash
+$ yarn add chart.js
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Motivation
+React Portfolio is a single project to showcase the skills learned in a Full-Stack Development Bootcamp. The goal of this project is to showcase the Full-Stack environment utilizing the latest technologies. It places emphasis on using React.js, which is a dynamic way to build apps.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Author
+* **Brett Rushing** - [GitHub](https://github.com/Brushing1215)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you have any questions feel free to contact any of the Authors.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Technologies
+<b>Built with</b>
+- [React.js](https://reactjs.org/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [NodeJs](https://nodejs.org/en/docs/)
+- 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+## Deployed Application
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<a href="https://brettportfolio.herokuapp.com">Portfolio</a>
